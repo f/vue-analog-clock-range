@@ -37,6 +37,7 @@
     "vue": "^2.5.13"
   },
   "devDependencies": {
+    "husky": "^0.14.3",
     "lint-staged": "^6.0.0",
     "poi": "^9.6.12",
     "prettier": "^1.10.2"
