@@ -21,7 +21,7 @@ yarn add vue-analog-clock-range
 
 This will select the analog range of given hours:
 
-<img src="./resources/screenshot.png" width="480">
+<img src="./resources/screenshot.png" width="200">
 
 ## License
 
