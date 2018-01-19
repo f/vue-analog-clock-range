@@ -1,18 +1,21 @@
 <template>
   <div>
     <h2>Vue Analog Clock Range</h2>
-    <VueAnalogClock start="08:30" end="15:00"></VueAnalogClock>
+    <VueAnalogClock :showNumerals="true" start="08:30" end="15:00"></VueAnalogClock>
     <VueAnalogClock start="12:00" end="13:00" background-color='#ccc' range-color='#d864ef'></VueAnalogClock>
     <VueAnalogClock :radius="100" start="15:00" end="15:30" background-color='#ccc' range-color='#d864ef'></VueAnalogClock>
     <h3>Dynamic</h3>
     <VueAnalogClock :radius="100" start="08:30" :end="now" background-color='#ccc' range-color='#d864ef'></VueAnalogClock>
     <VueAnalogClock :radius="100" start="00:00" :end="nowFaster" background-color='#ccc' range-color='#d864ef'></VueAnalogClock>
     <span>00:00 to {{ nowFaster }}</span>
+    <h3>With Colored Decor</h3>
+    <VueAnalogClock :radius="100" start="08:30" end="15:00" :showDecor="true"></VueAnalogClock>
+    <VueAnalogClock :radius="100" start="08:30" end="15:00" :showDecor="true" decorColor='#e74c3c'></VueAnalogClock>
   </div>
 </template>
 
 <script>
-  import VueAnalogClock from '../src/vue-analog-clock-range';
+import VueAnalogClock from '../src/vue-analog-clock-range';
 import { setInterval } from 'timers';
   export default {
     components: {
