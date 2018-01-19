@@ -37,7 +37,7 @@ This will select the analog range of given hours:
   range-color='#d864ef'>
 </VueAnalogClockRange>
 ```
-<img src="./resources/screenshot_colored.png" width="835">
+<img src="./resources/screenshot_colored.png" width="400">
 
 ## License
 
