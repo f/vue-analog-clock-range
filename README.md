@@ -12,6 +12,7 @@ yarn add vue-analog-clock-range
 
 ```html
 <VueAnalogClockRange
+  :radius="100"
   start="08:30"
   end="15:00"
   background-color='#ccc'
