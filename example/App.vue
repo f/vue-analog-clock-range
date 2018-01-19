@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>Vue Analog Clock Range</h2>
-    <VueAnalogClock start="12:00" end="13:00"></VueAnalogClock>
+    <VueAnalogClock start="08:30" end="15:00"></VueAnalogClock>
     <VueAnalogClock start="12:00" end="13:00" background-color='#ccc' range-color='#d864ef'></VueAnalogClock>
     <VueAnalogClock :radius="100" start="15:00" end="15:30" background-color='#ccc' range-color='#d864ef'></VueAnalogClock>
     <h3>Dynamic</h3>
