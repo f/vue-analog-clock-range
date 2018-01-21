@@ -43,7 +43,7 @@
   function diffAsDegree(diff) {
     return Math.floor(diff / 60000) / 2;
   }
-  //  start draw clack //
+  //  start draw clock //
   function MakeField(ctx, radius, color, backgroundColor, borderColor , gradColor , boxColor) {
     var grad;
     ctx.beginPath();
@@ -110,7 +110,7 @@
       ctx.stroke();
       ctx.rotate(-pos);
   }
-  
+
 function MakeClock({ ctx, radius, backgroundColor, rangeColor, borderColor, gradColor, boxColor }){
   let r = radius / 2;
   ctx.translate(r,r);
@@ -119,7 +119,7 @@ function MakeClock({ ctx, radius, backgroundColor, rangeColor, borderColor, grad
   MakeNumbers(ctx, r);
   MakeGrad(ctx, r);
 }
-// finisg draw clock  //
+// finish draw clock  //
   function draw({ ctx, radius, start, end, backgroundColor, rangeColor,
     showDecor, decorColor }) {
     const r = radius / 2;
