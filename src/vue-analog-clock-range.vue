@@ -1,5 +1,5 @@
 <template>
-  <canvas id="canvas" ref='canvas' :width='radius' :height='radius'></canvas>
+  <canvas ref='canvas' :width='radius' :height='radius'></canvas>
 </template>
 
 <script>
