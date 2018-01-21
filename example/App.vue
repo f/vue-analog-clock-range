@@ -11,6 +11,8 @@
     <h3>With Colored Decor</h3>
     <VueAnalogClock :radius="100" start="08:30" end="15:00" :showDecor="true"></VueAnalogClock>
     <VueAnalogClock :radius="100" start="08:30" end="15:00" :showDecor="true" decorColor='#e74c3c'></VueAnalogClock>
+    <h3>Numeric Analog</h3>
+    <VueAnalogClock :radius="200" :is-numeric="true"  background-color='#000' border-color="transparent" range-color='orange' grad-color="orange" box-color="transparent"></VueAnalogClock>
   </div>
 </template>
 
@@ -47,4 +49,3 @@ import { setInterval } from 'timers';
     },
   };
 </script>
-
